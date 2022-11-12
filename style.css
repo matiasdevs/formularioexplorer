@@ -270,7 +270,7 @@ input:invalid {
 
 @media (max-width: 500px) {
   .page {
-    max-width: 100%;
+    max-width: 90%;
     margin: 0 auto;
     overflow: hidden;
   }
@@ -278,7 +278,7 @@ input:invalid {
   .input-wrapper input, 
   .input-wrapper textarea,
   .input-wrapper select {
-    max-width: 90%;
+    max-width: 85%;
 }
   .col-3 > div:nth-child(1) {
     max-width: 15%;
