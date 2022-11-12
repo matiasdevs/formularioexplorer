@@ -54,6 +54,7 @@ body::before {
   max-width: 736px;
   margin: auto;
   margin-bottom: 100px;
+  overflow: hidden;
 }
 
 header {
@@ -268,7 +269,7 @@ input:invalid {
   border: 2px solid red;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .page {
     max-width: 90%;
     margin: 0 auto;
@@ -278,16 +279,16 @@ input:invalid {
   .input-wrapper input, 
   .input-wrapper textarea,
   .input-wrapper select {
-    max-width: 70%;
+    max-width: 60%;
 }
   .col-3 > div:nth-child(1) {
-    max-width: 15%;
+    max-width: 17%;
   }
   .col-3 > div:nth-child(2) {
-    max-width: 15%;
+    max-width: 17%;
   }
   .col-3 > div:nth-child(3) {
-    max-width: 15%;
+    max-width: 17%;
   }
 
   .button {
