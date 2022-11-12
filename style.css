@@ -278,7 +278,7 @@ input:invalid {
   .input-wrapper input, 
   .input-wrapper textarea,
   .input-wrapper select {
-    max-width: 85%;
+    max-width: 70%;
 }
   .col-3 > div:nth-child(1) {
     max-width: 15%;
